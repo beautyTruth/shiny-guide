@@ -24,3 +24,5 @@ function divide(x, y) {
   console.log(result);
   subtract(50, 40);
 }
+
+// believe in yourself
