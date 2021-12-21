@@ -30,3 +30,5 @@ function textData() {
 
   NewXHR.send(); // Step 4
 }
+
+// believe in yourself
