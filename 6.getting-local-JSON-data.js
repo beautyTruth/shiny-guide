@@ -32,3 +32,5 @@ function getQuestions() {
 
   newXhrObj.send();
 }
+
+// remember the four steps
