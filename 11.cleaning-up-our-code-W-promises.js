@@ -23,15 +23,16 @@ function getData() {
   };
 
   // Step 1
-  //   getQuestions("questions/6.questions1-2.json")
-  //     .then((quesitonsData) => {
-  //       console.log("Questions 1-2:", quesitonsData);
-  //     })
-  //     .catch((error) => {
-  //       console.log("Rejected:", error);
-  //     });
+  // getQuestions("questions/6.questions1-2.json")
+  //   .then((quesitonsData) => {
+  //     console.log("Questions 1-2:", quesitonsData);
+  //   })
+  //   .catch((error) => {
+  //     console.log("Rejected:", error);
+  //   });
 
   // Step 2
+
   getQuestions("questions/6.questions1-2.json")
     .then((questionsData) => {
       console.log("Question 1-2:", questionsData);
@@ -56,3 +57,5 @@ function getData() {
       console.log(error);
     });
 }
+
+// be good to yourself; stop beating yourself up
