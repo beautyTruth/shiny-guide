@@ -35,3 +35,5 @@ function getData() {
 
   dog.classList.add("show");
 }
+
+// get busy living or get busy dying
