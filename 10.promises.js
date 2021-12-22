@@ -2,8 +2,8 @@
 
 let myFirstPromise = new Promise((resolve, reject) => {
   setTimeout(function () {
-    // resolve("Success");
-    reject("whooopsie");
+    resolve("Success");
+    // reject("whooopsie");
   }, 1000);
 });
 
@@ -16,7 +16,10 @@ let myFirstPromise = new Promise((resolve, reject) => {
 //   }
 // );
 
+// the resolve and reject functions are defined in the function call in the .then method on the function call (you got this, don't overthink it)
+
 // .then() + .catch()
+
 myFirstPromise
   .then((successMsg) => {
     console.log(successMsg);
