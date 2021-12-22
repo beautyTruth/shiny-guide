@@ -3,11 +3,11 @@
 // Example 1 -> make a request to get the users
 
 // fetch("https://jsonplaceholder.typicode.com/users")
-//   .then((response) => {
-//     console.log(response);
+//   .then((poop) => {
+//     console.log(poop);
 //   })
-//   .catch((error) => {
-//     console.log(error);
+//   .catch((burp) => {
+//     console.log(burp);
 //   });
 
 // ------------------------------------------------
