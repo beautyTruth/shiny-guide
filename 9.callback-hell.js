@@ -53,3 +53,5 @@ function getQuestions() {
     );
   });
 }
+
+// you have to learn the old school before learning the new school

@@ -5,15 +5,15 @@ const dog = document.querySelector(".dog");
 getDataBtn.addEventListener("click", getData);
 
 function getData() {
-  let getToDos = (callback) => {
+  let getToDos = (blueBalls) => {
     const data = new XMLHttpRequest();
 
     data.addEventListener("readystatechange", function () {
       if (this.status === 200 && this.readyState === 4) {
         const dataRetrieved = JSON.parse(data.responseText);
-        callback(undefined, dataRetrieved);
+        blueBalls(undefined, dataRetrieved);
       } else if (this.readyState === 4) {
-        callback("Error Fetching Data", undefined);
+        blueBalls("Error Fetching Data", undefined);
       }
     });
 
@@ -21,6 +21,8 @@ function getData() {
     // data.open("GET", "https://jsonplaceholder.typicode.com/qwertytodos/", true);
 
     data.send();
+
+    console.log(typeof blueBalls);
   };
 
   cat.classList.add("show");
